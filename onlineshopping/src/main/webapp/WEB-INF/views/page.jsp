@@ -58,7 +58,7 @@
 	<div class="se-pre-con"></div>
 	<div class="wrapper">
 
-		<%--<!-- Navigation -->
+		<!-- Navigation -->
 		<%@include file="./shared/navbar.jsp"%>
 
 		<!-- Page Content -->
@@ -66,7 +66,7 @@
 		<div class="content">
 			
 			<!-- Loading the home content -->
-			 <c:if test="${userClickHome == true }">
+			<c:if test="${userClickHome == true }">
 				<%@include file="home.jsp"%>
 			</c:if>
 
@@ -94,7 +94,7 @@
 			<!-- Load only when user clicks manage product -->
 			<c:if test="${userClickManageProduct == true}">
 				<%@include file="manageProduct.jsp"%>
-			</c:if>	 
+			</c:if>	
 
 			<!-- Load only when user clicks manage product -->
 			<c:if test="${userClickShowCart == true}">
@@ -105,7 +105,7 @@
 
 
 		<!-- Footer comes here -->
-		<%@include file="./shared/footer.jsp"%>--%>
+		<%@include file="./shared/footer.jsp"%>
 
 		<!-- jQuery -->
 		<script src="${js}/jquery.js"></script>
