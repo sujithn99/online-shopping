@@ -1,4 +1,4 @@
-package net.nsk.shoppingbackend;
+package net.nsk.shoppingbackend.test;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
